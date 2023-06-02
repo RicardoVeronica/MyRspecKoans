@@ -12,3 +12,7 @@ RSpec 3.12
 - rspec-expectations 3.12.3
 - rspec-mocks 3.12.5
 - rspec-support 3.12.0
+
+## Rubocop Version
+
+1.50.2
