@@ -4,8 +4,17 @@ Style/FrozenStringLiteralComment:
 Style/Documentation:
   Enabled: false
 
-Metrics/BlockLength:
+Style/StringConcatenation:
   Enabled: false
 
 Style/StringLiterals:
+  Enabled: false
+
+Lint/InterpolationCheck:
+  Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: false
+
+Metrics/BlockLength:
   Enabled: false
