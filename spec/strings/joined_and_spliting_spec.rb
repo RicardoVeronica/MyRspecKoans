@@ -1,0 +1,22 @@
+describe 'joining and spliting strings' do
+  it 'strings can be splited' do
+    string = 'Ruby Elixir Python'
+    words = string.split
+
+    # expect(words).to eq(['Ruby', 'Elixir', 'Python'])
+    expect(words).to eq(%w[Ruby Elixir Python])
+  end
+
+  it 'strings can be splited with different patterns' do
+    string = 'the:rain:in:spain'
+    words = string.split(/:/)
+
+    expect(words).to eq(%w[the rain in spain])
+  end
+
+  it 'strings can be joined too' do
+    words = %w[now is the time]
+
+    expect(words.join(" ")).to eq('now is the time')
+  end
+end
