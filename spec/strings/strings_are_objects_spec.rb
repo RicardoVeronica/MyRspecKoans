@@ -3,7 +3,7 @@ describe 'strings are objects' do
     a = 'string'
     b = 'string'
 
-    expect(a).to eq(b)
-    expect(a.object_id).not_to eql(b.object_id)
+    expect(a).to eq(b) # has the same value
+    expect(a.object_id).not_to eql(b.object_id) # are different ojects
   end
 end
