@@ -14,5 +14,6 @@ describe 'how to work with indexing' do
     expect(language[-4]).to eql('R')
 
     expect(language[0..3]).to eql('Ruby') # include the last index
+    expect(language[0...3]).to eql('Rub') # exclude the last index
   end
 end

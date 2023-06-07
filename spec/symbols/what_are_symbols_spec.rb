@@ -5,7 +5,7 @@ describe 'Ruby symbols' do
     expect(symbol.class).to eq(Symbol)
   end
 
-  it 'when you have identical are a single internal object' do
+  it 'when you have identical symbols are a single internal object' do
     symbol1 = :Ruby
     symbol2 = :Ruby
 

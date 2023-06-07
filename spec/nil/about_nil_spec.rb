@@ -4,6 +4,11 @@ describe 'about nil' do
   end
 
   it 'you do not get null pointer errors when calling methods on nil' do
+    # null poiter error in java
+    # java use references to memory location, when a reference is null
+    # it means it does not point to any valid object.
+    # A null pointer error occurs
+
     begin
       nil.some_unexist_method
     rescue StandardError => e
